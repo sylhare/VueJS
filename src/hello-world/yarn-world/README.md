@@ -1,6 +1,15 @@
 # yarn-world
 
-> test
+## Get Started
+
+Use these commands to get started:
+
+    cd yarn-world
+    npm run dev
+
+To create another package try:
+
+    vue init webpack <package name>
 
 ## Build Setup
 
@@ -28,3 +37,10 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+## Sources
+
+Check here:
+
+- https://www.pierrefay.fr/formation-vuejs/helloworld-tutoriel.html
