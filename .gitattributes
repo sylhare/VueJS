@@ -1,0 +1,3 @@
+# Manual overwrite for fun
+# https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
+*.js linguist-language=vue
