@@ -1,5 +1,6 @@
 import { expect } from 'chai'
-import Vue from 'vue'
+import { shallowMount } from '@vue/test-utils'
+//import Vue from 'vue'
 import Hello from '@/components/World.vue'
 
 /*
