@@ -13,6 +13,7 @@
 </template>
 
 <script>
+    const api = "https://jsonplaceholder.typicode.com/users"
     export default {
         name: 'HelloWorld',
         props: {
@@ -24,14 +25,13 @@
         }},
         created() {
             this.$http
-                .get('https://jsonplaceholder.typicode.com/users')
+                .get(api)
                 .then(function(response) {
                     this.users = response.data
                 })
-            this.$http
-                .get('http://localhost:3000/space/')
+            this.$http .get('http://localhost:8080/' + api)
                 .then(function(response) {
-                    this.users = response.data
+                    this.proxy = response.data
                 })
         }
     }
