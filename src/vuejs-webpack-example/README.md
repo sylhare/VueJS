@@ -1,6 +1,10 @@
 # vuejs-webpack-example
 
-> A Vue.js project
+Add proxy in webpack project:
+https://medium.com/js-dojo/how-to-setup-vue-dev-server-with-a-running-web-server-7532c53b3198
+
+Vuejs webpack structure:
+https://vuejs-templates.github.io/webpack/structure.html
 
 ## Build Setup
 
