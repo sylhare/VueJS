@@ -5,7 +5,21 @@
 const path = require('path')
 
 module.exports = {
+  // For the dev configuration    
   dev: {
+    // Proxy
+    proxyTable: {
+        '/vue-app-proxy/': {
+            target: 'https://real-url-to-go.to',
+            changeOrigin: true,
+            secure: false,
+            logLevel: "debug",
+            "pathRewrite": {
+                "^/vue-app-proxy": ""
+            }
+
+        },
+    },
 
     // Paths
     assetsSubDirectory: 'static',
