@@ -2,7 +2,6 @@
 <div>
     <p> Parents data name value: {{name}} </p>
     <br />
-    <br />
     <child :myname="name" @nameupdated="name=$event"></child>
 </div>
 </template>
