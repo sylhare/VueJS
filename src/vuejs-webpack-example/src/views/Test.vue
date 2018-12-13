@@ -6,10 +6,13 @@
     <parent/>
     <hr>
     <kid :title="name"></kid>
+    <hr>
+    <counter />
 </div>
 </template>
 
 <script>
+import Counter from '@/components/Counter'
 import Parent from '@/components/Parent'
 import Kid from '@/components/Kid'
 
@@ -29,7 +32,8 @@ export default {
   },
   components: {
     Parent,
-    Kid
+    Kid,
+    Counter
   }
 }
 </script>
