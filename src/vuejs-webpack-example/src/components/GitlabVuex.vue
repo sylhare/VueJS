@@ -38,13 +38,13 @@ export default {
     <li v-else-if="error">
       {{ error }}
     </li>
-    <template v-else>
+    <div v-else>
       <li
         v-for="user in users"
         :key="user.id"
       >
         {{ user }}
       </li>
-    </template>
+    </div>
   </ul>
 </template>

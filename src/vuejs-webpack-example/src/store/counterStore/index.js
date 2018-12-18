@@ -9,14 +9,14 @@ Vue.use(Vuex)
 export const createStore = () => new Vuex.Store({
   state: {
     count: 0,
-    name: 'Tucker'  
+    name: 'Tucker'
   },
   mutations: {
     increment (state) {
       state.count++
     },
-    decrement: state => state.count--, // mutation can be introduced like that too
-    nominate: (state, data) => state.name = data
+    decrement: state => (state.count--), // mutation can be introduced like that too
+    nominate: (state, data) => (state.name = data)
   }
 })
 export default createStore()

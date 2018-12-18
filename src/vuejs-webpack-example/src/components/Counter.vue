@@ -12,23 +12,23 @@
 </template>
 
 <script>
-import store from '@/counterStore'
+import store from '@/store/counterStore'
 
 export default {
   name: 'counter',
   data () {
     return {
-      inputName: '',
+      inputName: ''
     }
   },
-    
+
   computed: {
     count () {
       return store.state.count
     },
     name () {
       return store.state.name
-    }  
+    }
   },
   methods: {
     increment () {
@@ -37,9 +37,9 @@ export default {
     decrement () {
       store.commit('decrement')
     },
-    nominate () {   
+    nominate () {
       store.commit('nominate', this.inputName)
-    }  
+    }
   }
 }
 </script>
