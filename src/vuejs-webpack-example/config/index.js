@@ -9,16 +9,16 @@ module.exports = {
   dev: {
     // Proxy
     proxyTable: {
-        '/vue-app-proxy/': {
-            target: 'https://real-url-to-go.to',
-            changeOrigin: true,
-            secure: false,
-            logLevel: "debug",
-            "pathRewrite": {
-                "^/vue-app-proxy": ""
-            }
+      '/vue-app-proxy/': {
+        target: 'https://real-url-to-go.to',
+        changeOrigin: true,
+        secure: false,
+        logLevel: "debug",
+        "pathRewrite": {
+          "^/vue-app-proxy": ""
+        }
 
-        },
+      },
     },
 
     // Paths
