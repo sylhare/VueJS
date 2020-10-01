@@ -58,6 +58,7 @@ Here are some links:
 - [Vue.js](https://vuejs.org/)
 - [Vue.js style guide](https://vuejs.org/v2/style-guide/)
 - [Gitlab Vue.js style guide](https://docs.gitlab.com/ee/development/fe_guide/vue.html)
+- [Vue cheatsheet](https://marozed.com/vue-cheatsheet)
 
 
 
